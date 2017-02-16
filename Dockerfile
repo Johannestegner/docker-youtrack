@@ -1,4 +1,4 @@
-FROM openjdk:7-jdk-alpine
+FROM openjdk:8-jdk-alpine
 MAINTAINER Johannes Tegnér <johannes@jitesoft.com>
 
 ENV YOUTRACK_VERSION=2017.1.30973
