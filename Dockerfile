@@ -1,7 +1,7 @@
 FROM openjdk:7-jdk-alpine
 MAINTAINER Johannes Tegnér <johannes@jitesoft.com>
 
-ENV YOUTRACK_VERSION=7.0.28450
+ENV YOUTRACK_VERSION=2017.1.30973
 
 # Using the zip installation for the ability to use an external hub if wanted.
 RUN apk add --update wget unzip bash && \
