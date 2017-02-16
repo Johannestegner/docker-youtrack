@@ -3,7 +3,7 @@ Docker image for jetbrains youtrack using the zip version (which in turn enables
 The image is based on **Alpine linux** using **OpenJDK**.
 
 ### Youtrack Version.
-The installation of youtrack is by default set to use the `7.0.28450` version, but this can be altered by changing the `YOUTRACK_VERSION` environment variable to another version.  
+The installation of youtrack is by default set to use the `2017.1.30973` version, but this can be altered by changing the `YOUTRACK_VERSION` environment variable to another version.  
 
 ### Persist data.
 To persist `data` directory or `backup` directory add `/youtrack/data` and/or `/youtrack/backup` as volumes.  
