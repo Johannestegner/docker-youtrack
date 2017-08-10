@@ -5,7 +5,8 @@ The image is based on **Alpine linux** using **OpenJDK**.
 
 ## Youtrack Version
 
-The installation of youtrack is by default set to use the `2017.2.32853` version, but this can be altered by changing the `YOUTRACK_VERSION` environment variable to another version on build.
+Check the Dockerfile `YOUTRACK_VERSION` environment variable to check which version is running on the latest branch.  
+The version is updated as soon as possible after a new version of youtrack is released.  
 
 ## Persist data
 
