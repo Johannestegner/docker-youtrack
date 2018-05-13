@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 LABEL maintainer="Johannes Tegnér <johannes@jitesoft.com>"
 
-ENV YOUTRACK_VERSION=2017.4.37623
+ENV YOUTRACK_VERSION=2018.1.41561
 EXPOSE 8080
 
 # Using the zip installation for the ability to use an external hub if wanted.
