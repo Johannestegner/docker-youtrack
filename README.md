@@ -17,11 +17,13 @@ container:
 
 The directories are set as `VOLUMES` in the docker file.
 
-## Ports
+## Environment variables
 
 Port 8080 is the default port used by YouTrack, if you wish to use
 another port for some reason, change the env variable `PORT` to desired value and expose it.
 
+The `PUBLIC_URI` variable should be set to the public URL of the installation (including port and schema).
+Defaults to http://127.0.0.1:8080.
 
 ## Initial startup
 
