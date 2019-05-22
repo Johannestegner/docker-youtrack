@@ -9,7 +9,7 @@ ADD healthcheck.sh /healthcheck.sh
 # Using the zip installation for the ability to use an external hub if wanted.
 RUN apk add --no-cache --virtual .trash unzip \
  && wget https://download.jetbrains.com/charisma/youtrack-${VERSION}.zip \
- && wget -qO https://download.jetbrains.com/charisma/youtrack-${VERSION}.zip.sha256 \
+ && wget https://download.jetbrains.com/charisma/youtrack-${VERSION}.zip.sha256 \
  && grep "youtrack-${VERSION}.zip\$" youtrack-${VERSION}.zip.sha256 | sha256sum -c - \
  && unzip youtrack-${VERSION}.zip \
  && rm youtrack-${VERSION}.zip youtrack-${VERSION}.zip.sha256 \
